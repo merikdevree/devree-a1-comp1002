@@ -1,0 +1,47 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    gap: 6rem;
+    align-items: center;
+    color: rgb(240, 180, 24)
+}
+#logo img {
+    width: 100px;
+    height: 100px;
+
+    padding: 1rem;
+}
+    
+.navbar-links {
+
+    justify-content: left;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+.navbar-links ul {
+    list-style: none;
+
+}
+
+li {
+    display: inline-block;
+    padding: .5rem;
+    background-color: rgb(187, 140, 23);
+    border: 2px solid rgb(151, 114, 21);
+    
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    
+    
+}
