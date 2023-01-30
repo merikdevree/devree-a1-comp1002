@@ -3,14 +3,14 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(49, 49, 49);
 }
 
 .navbar {
     display: flex;
     justify-content: left;
     gap: 6rem;
-    align-items: center;
-    color: rgb(240, 180, 24)
+    align-items: top;
 }
 #logo img {
     width: 100px;
@@ -22,26 +22,31 @@ body {
 .navbar-links {
 
     justify-content: left;
-    gap: 2rem;
-    align-items: center;
-
-}
-
-.navbar-links ul {
     list-style: none;
-
+    align-items: right;
+    
 }
+
 
 li {
     display: inline-block;
-    padding: .5rem;
-    background-color: rgb(187, 140, 23);
-    border: 2px solid rgb(151, 114, 21);
-    
+    height: 1em;
+    width: 8em;
+    background-color: rgb(150, 105, 10);
+    padding: .25rem;
+    text-align: center;
+
 }
 
 .navbar-links li a {
     text-decoration: none;
-    
-    
+    color: rgb(214, 150, 9);
+    display: block;
+}
+
+.navbar-links li:hover {
+    height: 2em;
+}
+.navbar-links li:hover a {
+    color: rgb(255, 174, 0);
 }
