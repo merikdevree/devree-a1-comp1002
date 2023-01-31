@@ -4,12 +4,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(49, 49, 49);
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
     display: flex;
     justify-content: left;
-    gap: 6rem;
+    gap: 4em;
     align-items: top;
 }
 #logo img {
@@ -49,4 +50,10 @@ li {
 }
 .navbar-links li:hover a {
     color: rgb(255, 174, 0);
+}
+
+#profile {
+    display: block;
+    color: rgb(214, 150, 9);
+    padding-left: 14.5em;
 }
