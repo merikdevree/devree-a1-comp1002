@@ -1,9 +1,13 @@
-var hover = $("#launch_glow1")[0];
-$("#hl_button").mouseenter(function() {
+//i dont know why this is not working
+var navButton = document.getElementsByClassName("hl-button"),
+    hover =document.getElementById("launch_glow1"),
+    click = document.getElementById("wpn_select"),
+    audios = document.querySelectorAll('audio');
+console.log(audios);
+navButton.addEventListener("mouseover", function(){
     hover.play();
 });
 
-var click = $("#wpn_select")[0];
-$("#hl_button").click(function() {
+navButton.addEventListener("click", function(){
     click.play();
 });
