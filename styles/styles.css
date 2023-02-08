@@ -68,7 +68,7 @@ hr.dashed {
     border-top: 3px dashed rgb(214, 150, 9);
     text-decoration: none;
 }
-/* simulates a crt screen. looks neat.
+/* 
 @keyframes flicker {
     0% {
       opacity: 0.27861;

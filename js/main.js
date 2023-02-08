@@ -1,13 +1,18 @@
-//i dont know why this is not working
-var navButton = document.getElementsByClassName("hl-button"),
-    hover =document.getElementById("launch_glow1"),
-    click = document.getElementById("wpn_select"),
-    audios = document.querySelectorAll('audio');
-console.log(audios);
-navButton.addEventListener("mouseover", function(){
-    hover.play();
+const items = document.querySelectorAll('a');
+const sound = document.getElementById('launch_glow1')
+const sound2 = document.getElementById('wpn_select')
+
+items.forEach(item => {
+    item.addEventListener('mouseover', function() {
+        sound.volume = 0.5;
+        sound.currentTime = 0;
+        sound.play();
+    });
+    item.addEventListener('click', function() {
+        
+        sound2.volume = 0.5;
+        sound2.currentTime = 0;
+        sound2.play();
+    });
 });
 
-navButton.addEventListener("click", function(){
-    click.play();
-});

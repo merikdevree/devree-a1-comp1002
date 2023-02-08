@@ -5,17 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="script" href="./js/main.js">
+    <script src="./js/main.js" defer="defer"></script>
+    
     <title>Employee Directory - Gordon Freeman</title>
 </head>
 <body class="crt">
-    <audio id="launch_glow1" preload="auto">
-        <source src="./assets/sound/launch_glow1.wav" type="audio/wav">
-    </audio>
-    <audio id="wpn_select" preload="auto">
-        <source src="./assets/sound/wpn_select.wav" type="audio/wav">
-    </audio>
- 
+    <audio id="launch_glow1" src="./assets/sound/launch_glow1.wav"></audio>
+    <audio id="wpn_select"src="./assets/sound/wpn_select.wav"></audio>
+    
     <header>
         <nav class="navbar">
             <div id="logo">
@@ -23,14 +20,15 @@
             </div>
             <div class="navbar-links">
                 <ul>
-                    <li class="hl-button"><a href="index.html">Employee Profile</a></li>
+                    <li id="test" class="hl-button"><a href="#">Employee Profile</a></li>
                     <li class="hl-button"><a href="report.html">Accident Report</a></li>
                     <li class="hl-button"><a href="sources.html">Sources</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-
+    
+    </script>
     <section class="main-content">
         <h1>Employee Profile</h1>        
         <hr class="dashed">
